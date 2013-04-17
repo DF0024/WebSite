@@ -1,0 +1,163 @@
+body {
+	width: 1150px;
+	margin: auto;
+	height:1125;
+	font-size: 12px;
+	font-family: "Garamond", "Hoefler Text", Times New Roman, Times, serif;
+/*	color: #ccc;
+	background-color: #333;*/
+	background:url(Images/BG_Header.png), url(Images/BG_Bottom.png);
+	background-repeat:repeat-x;
+	background-position: bottom;
+}
+
+#global {
+	    width: 1150px;
+        /*background-color: #333;*/
+		background:url(Images/BG_Header.png), url(Images/BG_Bottom.png);
+		background-repeat:repeat-x;
+		background-position: top, bottom right;
+}
+
+#header {
+		background:url(Images/header.jpg);
+		background-repeat:no-repeat;
+		background-position: left;
+		width:1150px;
+		height:100px;
+		
+
+}
+
+#bottom {
+		/*background-color: #333;*/
+		width:1150px;
+		height:122px;
+		float:inherit;
+}
+
+#resume {
+	width:1135px;
+	height:80px;
+	padding-right:15px;
+	padding-top: 15px;
+	margin-bottom: 10px;
+	float:right;
+}
+
+#menu {
+		width:1150px;
+		height:26px;
+		margin-bottom: 10px;
+}
+
+#content {
+		width:1150px;
+		height:1125px;
+		margin-bottom: 20px;
+		text-align:center;
+}
+
+#links {
+		padding-left:46px;
+		width:698px;
+		height:162px;
+		padding-bottom:18px;
+		float:left;
+}
+
+p
+{
+	line-height: 17pt;
+	font-size: 14px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+	text-indent: 25px;
+}
+
+h1
+{
+	font-size:11px;
+	padding:10px;
+	margin-left:15px;
+	margin-right:10px;
+	text-align: justify;
+	border:2px dashed #333;
+	font-weight:normal;
+	font-style:italic;
+	text-indent:25px;
+}
+
+h2
+{
+	font:Lucida Sans;
+	font-size:13pt;
+	font-weight:bold;
+	text-decoration:none;
+	text-indent:25px;
+	text-align:right;
+}
+
+h3
+{
+	font:Lucida Sans;
+	font-size:9pt;
+	font-weight:bold;
+	text-decoration:none;
+	padding:2px;
+	margin:0px;
+}
+
+#global_liste
+{
+width:670px;
+}
+
+#liste
+{
+	border: 1px solid #86939b;
+	margin:10px 15px 30px 47px;
+	width:260px;
+	clear:right;
+	float:left;
+	list-style:circle;
+}
+
+ul
+{
+	margin-bottom:7px;
+	margin-top:10px;
+	font:Lucida Sans;
+	font-size:12px;
+	font-weight:bold;
+}
+
+li
+{
+	margin-bottom:3px;
+	font:"Garamond", "Hoefler Text", Times New Roman, Times, serif;
+	font-size:10px;
+	font-weight:normal;
+}
+
+#form
+{
+	height:650px;
+	font:"Garamond", "Hoefler Text", Times New Roman, Times, serif;
+	font-size:12px;
+	font-style:italic;
+}
+
+a
+{
+	font-weight:bold;
+	color:#CCC;
+	text-decoration:none;
+}
+
+a:hover
+{
+	font-weight:bold;
+	color:#999;
+}
